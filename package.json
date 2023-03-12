@@ -1,13 +1,27 @@
 {
   "name": "binary-search-trees",
   "version": "1.0.0",
-  "description": "",
   "private": true,
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "watch": "jest --watch --verbose \"\\.test\\.js\""
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "main": "BinarySearchTree.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vkilng/binary-search-tree.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vkilng/binary-search-tree/issues"
+  },
+  "homepage": "https://github.com/vkilng/binary-search-tree#readme",
+  "description": "",
+  "devDependencies": {
+    "@babel/preset-env": "^7.20.2",
+    "jest": "^29.5.0"
+  }
 }
